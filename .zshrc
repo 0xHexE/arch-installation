@@ -112,11 +112,10 @@ export NVM_DIR="$HOME/.nvm"
 
 alias k=kubectl
 
-
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/omkar/google-cloud-sdk/path.zsh.inc' ]; then . '/home/omkar/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f "$HOME/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME/google-cloud-sdk/path.zsh.inc"; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/home/omkar/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/omkar/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f "$HOME/google-cloud-sdk/completion.zsh.inc" ]; then . "$HOME/google-cloud-sdk/completion.zsh.inc"; fi
 
 export PATH="$PATH":"$HOME/.pub-cache/bin:$HOME/fvm/default/bin"
