@@ -1,0 +1,12 @@
+chrome-gnome-shell
+flat-remix
+flat-remix-gnome
+jetbrains-toolbox
+lite
+nushell-bin
+polybar
+snapd
+ttf-ms-fonts
+yaru-remix-gtk-theme-git
+yay
+zsh-theme-powerlevel10k-git
